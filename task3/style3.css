@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+
+
+
+
+/* Some default styles to make each box visible */
+.box {
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+    padding:10px;
+}
+
+
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box-1{
+    width: 100%;
+    height: 20%;
+    background-color:yellowgreen;
+}
+.box-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+    
+    background-color: yellow;
+}
+.box-3{
+    width: 100%;
+    height: 20%;
+    background-color: yellowgreen;
+}
+.inner-box1{
+   width:30%;
+   background-color: lightgreen;
+}
+.inner-box2{
+width: 70%;
+background-color: white;
+}
+.inner-box3{
+  width: 30%;
+  background-color: lightgreen;
+}
