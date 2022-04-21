@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+
+
+/* Some default styles to make each box visible */
+.box {
+    color:white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+    padding:10px;
+}
+
+/* Colours for each box */
+.box1 { background:green;}
+.box2 { background:blue;}
+.box3 { background:purple;}
+.box4 { background:gray;}
+.box5 { background:yellow;}
+.box6 { background:orange;}
+.box7 { background:red;}
+.box8 { background:lightgray;}
+.box9 { background:green;}
+.box10 { background:darkgreen;}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.box{
+    width: 50%;
+}
+
+.box2 {
+    padding-bottom: 200px;
+    align-self: flex-end;
+}
+
+.box6{
+    padding-bottom: 20px;
+    align-self: flex-start;
+}
+
+.box9{
+    padding-bottom: 300px;
+    align-self: center;
+}
